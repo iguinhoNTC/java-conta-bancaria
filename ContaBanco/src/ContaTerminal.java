@@ -38,5 +38,7 @@ public class ContaTerminal {
 				+ "nosso banco, sua agencia e %s, "
 				+ "conta %d e seu saldo %.2f ja esta disponivel"
 				+ " para saque.", nomeCliente, agencia, numero, saldo);
+
+        sc.close();
     }
 }
